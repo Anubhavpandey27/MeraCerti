@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/page19"
     android:orientation="vertical">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="292dp"
+            android:layout_height="35dp"
+            android:text="Continue"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="669dp" />
+
+        <Button
+            android:id="@+id/button19_2"
+            android:layout_width="311dp"
+            android:layout_height="39dp"
+            android:text="Upload"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="597dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

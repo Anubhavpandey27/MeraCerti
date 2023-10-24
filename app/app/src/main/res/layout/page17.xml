@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/page17"
     android:orientation="vertical">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button17_6"
+            android:layout_width="356dp"
+            android:layout_height="39dp"
+            android:text="Select"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="651dp" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="356dp"
+            android:layout_height="39dp"
+            android:text="Upload"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="216dp" />
+
+        <Button
+            android:id="@+id/button17_5"
+            android:layout_width="356dp"
+            android:layout_height="39dp"
+            android:text="Upload"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="561dp" />
+
+        <Button
+            android:id="@+id/button17_3"
+            android:layout_width="356dp"
+            android:layout_height="39dp"
+            android:text="Upload"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="377dp" />
+
+        <Button
+            android:id="@+id/button17_4"
+            android:layout_width="356dp"
+            android:layout_height="39dp"
+            android:text="Upload"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="460dp" />
+
+        <Button
+            android:id="@+id/button17_2"
+            android:layout_width="356dp"
+            android:layout_height="39dp"
+            android:text="Upload"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="296dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

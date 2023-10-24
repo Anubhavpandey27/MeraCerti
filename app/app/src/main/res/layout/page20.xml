@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/page20"
-    android:orientation="vertical">
+    android:background="@drawable/page20">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="417dp"
+            android:layout_height="68dp"
+            android:text="CONTINUE"
+
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="660dp" />
+
+        <Button
+            android:id="@+id/button20_2"
+            android:layout_width="375dp"
+            android:layout_height="47dp"
+            android:text="Pre-Verification form"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="34dp" />
+
+        <Button
+            android:id="@+id/button20_3"
+            android:layout_width="363dp"
+            android:layout_height="45dp"
+            android:text="+Add members "
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="490dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

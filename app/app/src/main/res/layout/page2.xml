@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/page2"
     android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="409dp"
+            android:layout_height="585dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:text="English"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="504dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/button2_1"
+            android:layout_width="358dp"
+            android:layout_height="52dp"
+            android:text="Hindi"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="570dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>

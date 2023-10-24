@@ -1,8 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/page10"
     android:orientation="vertical">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="409dp"
+            android:layout_height="489dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="407dp"
+                android:layout_height="487dp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="1dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="405dp"
+                    android:layout_height="485dp"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="1dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="403dp"
+                        android:layout_height="483dp"
+                        tools:layout_editor_absoluteX="1dp"
+                        tools:layout_editor_absoluteY="1dp">
+
+                        <Button
+                            android:id="@+id/button10_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Step-wise Procedure"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="289dp" />
+
+                        <Button
+                            android:id="@+id/button10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Detailed Eligibility?"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="193dp" />
+
+                        <Button
+                            android:id="@+id/button10_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Document Needed?"
+                            tools:layout_editor_absoluteX="16dp"
+                            tools:layout_editor_absoluteY="391dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/button10_4"
+            android:layout_width="409dp"
+            android:layout_height="76dp"
+            android:text="Check here to proceed making EWS Certificate"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="502dp" />
+
+        <Button
+            android:id="@+id/button10_5"
+            android:layout_width="415dp"
+            android:layout_height="73dp"
+            android:text="Check Application Status"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="623dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>
